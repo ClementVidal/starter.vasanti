@@ -1,4 +1,4 @@
-# Themba
+# Vasanti
 
 Lightweight seed for Nodejs projects using Typescript.
 
