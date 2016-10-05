@@ -1,0 +1,33 @@
+{
+  "name": "wordpress-tools",
+  "version": "0.0.0",
+  "description": "Set of command line tools to help in wordpress install / backup / restore operations",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --force ./src/**/*.ts"
+  },
+  "author": "Clément Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "inquirer": "^1.2.1",
+    "moment": "^2.15.1",
+    "mysql": "^2.11.1",
+    "promise": "^7.1.1",
+    "tmp": "0.0.29"
+  },
+  "devDependencies": {
+    "@types/colors": "^0.6.33",
+    "@types/commander": "^2.3.30",
+    "@types/inquirer": "0.0.29",
+    "@types/moment": "^2.13.0",
+    "@types/mysql": "0.0.29",
+    "@types/node": "^6.0.42",
+    "@types/promise": "^7.1.30",
+    "@types/tmp": "0.0.31",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}
