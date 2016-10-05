@@ -1,14 +1,14 @@
 {
-  "name": "wordpress-tools",
+  "name": "__TITLE__",
   "version": "0.0.0",
-  "description": "Set of command line tools to help in wordpress install / backup / restore operations",
+  "description": "",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "tslint --force ./src/**/*.ts"
   },
-  "author": "Clément Vidal",
-  "license": "ISC",
+  "author": "__AUTHOR__",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
